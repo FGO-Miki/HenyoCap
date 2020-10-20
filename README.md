@@ -1,2 +1,0 @@
-# HenyoCap
-A Capstone Project

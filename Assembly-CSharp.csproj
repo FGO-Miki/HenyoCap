@@ -53,24 +53,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\BackTo.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\StorySelect.cs" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUVNV12_YUVNV21.cginc" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUV420P_YUVYV12.cginc" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVideoBackground.cginc" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/Unity Projects/Cap_Henyo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -636,6 +653,12 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.28f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="VuforiaScripts.csproj">
+      <Project>{6F702004-98D7-EF7B-37F2-FBAC00BA2DD6}</Project>      <Name>VuforiaScripts</Name>    </ProjectReference>
+    <ProjectReference Include="VuforiaEditorScripts.csproj">
+      <Project>{B7C455B0-A286-5ADD-7B72-BFCD9D1BAC08}</Project>      <Name>VuforiaEditorScripts</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

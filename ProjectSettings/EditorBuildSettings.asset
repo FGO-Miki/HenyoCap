@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 61b6ca67dd823dc48a6fd42735b6dde8
   - enabled: 1
-    path: Assets/Scenes/Lvl0.unity
-    guid: 1a4da6b097e0b78488ab3868960f5d27
+    path: Assets/Scenes/StorySelect.unity
+    guid: 97889040719f7274a9a07ccb6a6c8e61
+  - enabled: 1
+    path: Assets/Scenes/MatsingPagong.unity
+    guid: 19d81145c9b0afc47888b54129efc467
+  - enabled: 1
+    path: Assets/Scenes/AlamatNgPinya.unity
+    guid: e96cedd6def282747b2b1e6e6c627948
   m_configObjects: {}
