@@ -1,10 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/MainMenu.unity
-  isLoaded: 1
-  isActive: 0
 - path: Assets/Scenes/MatsingPagong.unity
   isLoaded: 1
   isActive: 1
-- path: Assets/Scenes/AlamatNgPinya.unity
-  isLoaded: 1
-  isActive: 0
